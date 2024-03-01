@@ -1,0 +1,84 @@
+*{
+    margin: 0%;
+    font-family: "inter";
+   }
+
+#menusuperior{
+    background-color: #303030;
+    display: grid;
+}
+#textodecima{
+    font-size: 60px;
+    margin-left: 45px;
+    margin-top: 100px;
+    color: #FFFFFF;   
+}
+
+#textodebaixo{ 
+    font-size: 20px;
+    margin-left: 48px;
+    margin-top: 15px;
+    margin-bottom: 10%; 
+    color: #FFFFFF;    
+}
+
+#menuapresentacao{
+    background-color: #FFFFFF;
+    height: 500px;
+   
+}
+#titulomeuapresentacao{
+    font-size: 42px;
+    color: #000000;
+    margin-top: 15%;  
+    margin-left: 35px;
+}
+#textomeuapresentacao{
+    font-size: 130%;
+    color: #000000;    
+    margin-left: 35px;
+    
+}
+#foto-apresentacao{
+    margin-left: 60%;
+    margin-top: -26%;
+}
+#menucontato{
+    display: grid;
+    text-align: center;
+    background-color: #303030;
+    margin: 0px;
+}
+#texto-tres{
+     color: #FFFFFF;
+     font-size: 25px;
+     margin: 26px;
+}
+input{
+    
+    width: 350px;
+    Height: 40px;
+    background-color: #FFFFFF;
+    margin: 25px;
+    border: 0px;
+    border-radius: 5px;
+    padding-left: 15px;
+}
+button{
+    background-color: #C07212;
+    Width: 286px;
+    Height: 50px;
+    color: #FFFFFF;
+    border: 0px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    font-weight: bolder;
+    cursor: pointer ;
+}
+button:hover{
+    background-color: #ca8a3c;
+    color: #ffffff;
+    transform: translateY(-7px);
+    box-shadow: 0px 15px 20px #d3b995;
+    transition-duration: 0.7s;
+}
